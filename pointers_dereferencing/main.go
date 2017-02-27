@@ -12,6 +12,7 @@ func main() {
 
 	var b *int = &a
 	fmt.Println(b)
+	fmt.Println(*b) // deferencing
 	//
 	//variable b is a pointer to memory address (*int) where the int is stored
 }
