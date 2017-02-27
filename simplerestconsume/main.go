@@ -24,6 +24,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	defer res.Body.Close()
 	body, err := ioutil.ReadAll(payload.Body)
 	if err != nil {
 		panic(err)
