@@ -26,4 +26,7 @@ func main() {
 	}
 	fmt.Println(hh["bb"])
 
+	for k, nn := range hh {
+		fmt.Println(k, nn)
+	}
 }
