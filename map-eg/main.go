@@ -20,4 +20,10 @@ func main() {
 	_, re := dd["y"]
 	fmt.Println(re)
 
+	hh := map[string]int{
+		"aa": 2,
+		"bb": 3,
+	}
+	fmt.Println(hh["bb"])
+
 }
